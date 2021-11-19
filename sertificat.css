@@ -33,7 +33,7 @@ text-decoration: none;
 } 
 body { 
 margin: 0;
-background-image: url(sertificates/csssertificate.jpg);
+background-image: url(csssertificate.jpg);
 background-size: 30px 20px;/*размер узора*/
 padding: 0;
 } 
