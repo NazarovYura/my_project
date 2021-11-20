@@ -207,7 +207,7 @@ display: table;
 
  }
 
-.ROMB{
+/*.ROMB{*/
 	display: flex;
 	box-shadow:
 	inset 10px 10px 20px #2A279C, /*тень во внутрь div*/
@@ -220,14 +220,14 @@ display: table;
 	background-color: skyblue;
   transform: rotate(45deg);/*вращать div*/
   margin: -0% 70%;/*двигать div*/
-}
-.ROMBP{
+}*/
+/*.ROMBP{*/
 	vertical-align: middle;/*top(верх),bottom(вниз)*/
 	text-align: left;/*распложение текста(лево,право)*/
 	font-family: florence, cursive;/*стиль шрифта*/
 	transform: rotate(-45deg);/*поворот текста*/
-}
-.ROMB1{
+}*/
+/*.ROMB1{*/
 	display: flex;
 	box-shadow: 
 	inset 10px 10px 20px #2A279C, /*тень во внутрь div*/
@@ -240,4 +240,4 @@ display: table;
 	background-color: skyblue;
   transform: rotate(45deg);/*вращать div*/
   margin: 10% 10%;/*двигать div*/
-}
+}*/
