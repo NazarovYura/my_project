@@ -14,6 +14,9 @@ margin: 10px 25px ;
 	background: #F5EAEA;
 	box-shadow: 0px 13px 17px -6px #000000;/*тень*/
 	opacity: 0.7;/*прозрачность*/
+  position: absolute;
+  width: 100%;;
+  bottom: 0px;
 }
 .menu
 {

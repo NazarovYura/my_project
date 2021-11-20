@@ -10,6 +10,9 @@ margin: 10px 25px;
 	background: #FBEFD0;
 	box-shadow: 0px 13px 17px -6px #000000;/*тень*/
 	opacity: 0.7;
+  position: fixed;
+  width: 100%;;
+  bottom: 0px;
 }
 .menu
 {
@@ -118,4 +121,8 @@ display: table;
   .submenu { 
   opacity: 1; 
   transform: scaleY(1);
+  }
+
+  .description {
+    min-width: 250px !important;
   }
