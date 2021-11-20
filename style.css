@@ -109,7 +109,7 @@ display: table;
   box-shadow: 0px 13px 17px -6px #000000;
   } 
 .submenu a {
-   color: #000000; 
+   color: #000000;/*цвет текста выпадающего меню*/ 
    text-align: left; 
    padding: 12px 15px; 
    font-size: 13px; 
@@ -132,7 +132,7 @@ display: table;
   margin-left: 10px;
   } 
 .kontakti { 
-  background: #FBEFD0; /*цвет меню*/
+  background:  #FFFFFF; /*цвет меню*/
   position: absolute; 
   left: 0; 
   top: 100%; 
@@ -145,7 +145,7 @@ display: table;
   box-shadow: 0px 13px 17px -6px #000000;
   } 
 .kontakti a {
-   color: #0C0B0B; 
+   color: #000000; /*цвет текста выпадающего меню*/
    text-align: left; 
    padding: 12px 15px; 
    font-size: 14px; 
@@ -163,7 +163,7 @@ display: table;
 /*создаем ромб*/
  .ROMB3{
  	border-radius: 10px;
- 	display: flex;/*погоняет картинку под div*/
+ 	display: flex;/*погоняет картинку в div*/
   overflow: hidden;/*текст,картинка внутри div*/
 	border: 2px solid #151717;/*рамка размер*/
 	width: 200px;/*ширина div*/
@@ -173,17 +173,17 @@ display: table;
   /*margin: 5% 5%;/*двигать и не дает придиматься другим блокам div*/
   margin-top: 50px;
   margin-left: 45px;
-  box-shadow: 0px 13px 17px -6px #000000;
+  box-shadow: 0px 13px 17px -6px #000000;/*тень*/
  }
  .ROMBPR2{
- 	transform: rotate(-45deg);
+ 	transform: rotate(-45deg);/*поворот картинки*/
  	width: 300px;
  	height: 300px;
  	margin: -30% -25%;
  }
  .ROMB2{
  	border-radius: 15px;
- 	display: flex;/*погоняет картинку под div*/
+ 	display: flex;/*погоняет картинку в div*/
   overflow: hidden;/*текст,картинка внутри div*/
 	border: 2px solid #151717;/*рамка размер*/
 	width: 200px;/*ширина div*/
